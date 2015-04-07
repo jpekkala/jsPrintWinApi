@@ -1,0 +1,4 @@
+interfaces components/nsIPrintWinApi.xpt
+component {E5102ABA-4558-4947-8178-918674704052} components/jsPrintWinApi.js
+contract @jukkapekkala.com/jsPrintWinApi;1 {E5102ABA-4558-4947-8178-918674704052}
+category JavaScript-global-property jsPrintWinApi @jukkapekkala.com/jsPrintWinApi;1

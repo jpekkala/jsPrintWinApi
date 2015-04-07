@@ -1,0 +1,11 @@
+#include "nsISupports.idl"
+
+[scriptable, uuid(E5102ABA-4558-4947-8178-918674704052)]
+interface nsIPrintWinApi : nsISupports
+{
+	string getPrinters();
+	jsval getMediaTypeNames(in string printerName);
+	int32_t getMediaType(in string printerName);
+	boolean setMediaType(in string printerName, in jsval mediaType);
+	
+};
